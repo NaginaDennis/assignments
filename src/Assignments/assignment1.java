@@ -7,15 +7,15 @@ public class assignment1 {
 		
 		//1. Temperature of a city in degrees Celsius: 25.5 
 		float celsius = 25.5f;
-		System.out.println("1. Temperature of a city in degrees: 25.5 ");
+		System.out.println("1. Temperature of a city in degrees:" + celsius);
 		
 		//2. Whether a customer has placed an order: true or false 
 		boolean placedAnOrder = true;
 		System.out.println("2. Whether a customer has placed an order:" + placedAnOrder);
 		
 		//3. Person's phone number: "123-456-7890" 
-		long	phoneNumber = 7032220256L;
-		   System.out.println("3. Person's phone number:7032220256");
+		long phoneNumber = 7032220256L;
+		   System.out.println("3. Person's phone number:" + phoneNumber);
 		
 		//4. Amount of money in a customer's bank account: 1000.50 
 		double balance = 1000.50;
@@ -23,7 +23,7 @@ public class assignment1 {
 	        
 	    //5. Person's email address: "john.doe@example.com" 
 	     String email = "naginadennis.pagalla@gamil.com";
-	     System.out.println("5. Person's email address: naginadennis.pagalla@gamil.com");
+	     System.out.println("5. Person's email address:" + email);
 	        
 	    //6. Coordinates of a location (latitude, longitude): 37.7749, -122.4194
 	     double latitude = 37.7749;
@@ -85,10 +85,7 @@ public class assignment1 {
 		//20.Distance between two cities: 200.5 
 		double distance = 200.5;
 		System.out.println("20.Distance between two cities:" + distance);
-		
-		
-		
-		
+	
 		
 		
 	}
